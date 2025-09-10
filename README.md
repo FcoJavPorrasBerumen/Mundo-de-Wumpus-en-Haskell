@@ -45,7 +45,7 @@ cabal install random
 ## 🎮 Ejemplo de ejecucion
 
 **Mundo de Wumpus**
-Si desea jugar en un tablero aleatorio escriba R
+Si desea jugar en un tablero aleatorio escriba R \n
 y si desea jugar en el tablero predeterminado escriba P:
 P
 ----------------------------Pistas----------------------------
