@@ -82,6 +82,8 @@ gameOver wumpus oro hoyos pos puntos apuntando opc flecha = do
         then juego wumpus oro hoyos pos (puntos + 10) apuntando 0
     else if puntos <= 0
         then putStrLn ((mostrarTablero 1 (jugador 'R') wumpus oro hoyos 1) ++ "\n> = Jugador | W = Wumpus | O = Oro | H = Hoyo")
+    else if puntos > 100
+        then putStrLn ((mostrarTablero 1 (jugador 'R') wumpus oro hoyos 1) ++ "\n> = Jugador | W = Wumpus | O = Oro | H = Hoyo")
     else
         putStrLn ("")
 
